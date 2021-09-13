@@ -1,0 +1,313 @@
+﻿
+namespace accounting.view
+{
+    partial class Home
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
+            this.metroPanel2 = new MetroFramework.Controls.MetroPanel();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.metroPanel3 = new MetroFramework.Controls.MetroPanel();
+            this.ItemReport = new MetroFramework.Controls.MetroTile();
+            this.PaymentReport = new MetroFramework.Controls.MetroTile();
+            this.TransactionReport = new MetroFramework.Controls.MetroTile();
+            this.TransactionList = new MetroFramework.Controls.MetroTile();
+            this.ListItem = new MetroFramework.Controls.MetroTile();
+            this.CustomerList = new MetroFramework.Controls.MetroTile();
+            this.PaymentList = new MetroFramework.Controls.MetroTile();
+            this.metroTile2 = new MetroFramework.Controls.MetroTile();
+            this.metroPanel2.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // metroPanel2
+            // 
+            this.metroPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.metroPanel2.Controls.Add(this.metroLabel1);
+            this.metroPanel2.Controls.Add(this.metroPanel3);
+            this.metroPanel2.HorizontalScrollbarBarColor = true;
+            this.metroPanel2.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanel2.HorizontalScrollbarSize = 10;
+            this.metroPanel2.Location = new System.Drawing.Point(340, 47);
+            this.metroPanel2.Name = "metroPanel2";
+            this.metroPanel2.Size = new System.Drawing.Size(180, 49);
+            this.metroPanel2.TabIndex = 1;
+            this.metroPanel2.VerticalScrollbarBarColor = true;
+            this.metroPanel2.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanel2.VerticalScrollbarSize = 10;
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.metroLabel1.Location = new System.Drawing.Point(48, 10);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(125, 25);
+            this.metroLabel1.TabIndex = 8;
+            this.metroLabel1.Text = "GADAI SETIA";
+            // 
+            // metroPanel3
+            // 
+            this.metroPanel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("metroPanel3.BackgroundImage")));
+            this.metroPanel3.HorizontalScrollbarBarColor = true;
+            this.metroPanel3.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanel3.HorizontalScrollbarSize = 10;
+            this.metroPanel3.Location = new System.Drawing.Point(10, 10);
+            this.metroPanel3.Margin = new System.Windows.Forms.Padding(10);
+            this.metroPanel3.Name = "metroPanel3";
+            this.metroPanel3.Size = new System.Drawing.Size(33, 32);
+            this.metroPanel3.TabIndex = 7;
+            this.metroPanel3.VerticalScrollbarBarColor = true;
+            this.metroPanel3.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanel3.VerticalScrollbarSize = 10;
+            // 
+            // ItemReport
+            // 
+            this.ItemReport.ActiveControl = null;
+            this.ItemReport.AutoSize = true;
+            this.ItemReport.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ItemReport.Location = new System.Drawing.Point(575, 122);
+            this.ItemReport.Name = "ItemReport";
+            this.ItemReport.Size = new System.Drawing.Size(187, 143);
+            this.ItemReport.Style = MetroFramework.MetroColorStyle.Green;
+            this.ItemReport.TabIndex = 17;
+            this.ItemReport.Text = "Item Report";
+            this.ItemReport.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ItemReport.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.ItemReport.TileImage = ((System.Drawing.Image)(resources.GetObject("ItemReport.TileImage")));
+            this.ItemReport.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ItemReport.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.ItemReport.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.ItemReport.UseCustomForeColor = true;
+            this.ItemReport.UseSelectable = true;
+            this.ItemReport.UseStyleColors = true;
+            this.ItemReport.UseTileImage = true;
+            this.ItemReport.Click += new System.EventHandler(this.ItemReport_Click);
+            // 
+            // PaymentReport
+            // 
+            this.PaymentReport.ActiveControl = null;
+            this.PaymentReport.AutoSize = true;
+            this.PaymentReport.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PaymentReport.Location = new System.Drawing.Point(575, 271);
+            this.PaymentReport.Name = "PaymentReport";
+            this.PaymentReport.Size = new System.Drawing.Size(187, 122);
+            this.PaymentReport.Style = MetroFramework.MetroColorStyle.Green;
+            this.PaymentReport.TabIndex = 16;
+            this.PaymentReport.Text = "Payment Report";
+            this.PaymentReport.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.PaymentReport.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.PaymentReport.TileImage = ((System.Drawing.Image)(resources.GetObject("PaymentReport.TileImage")));
+            this.PaymentReport.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.PaymentReport.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.PaymentReport.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.PaymentReport.UseCustomForeColor = true;
+            this.PaymentReport.UseSelectable = true;
+            this.PaymentReport.UseStyleColors = true;
+            this.PaymentReport.UseTileImage = true;
+            // 
+            // TransactionReport
+            // 
+            this.TransactionReport.ActiveControl = null;
+            this.TransactionReport.AutoSize = true;
+            this.TransactionReport.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.TransactionReport.Location = new System.Drawing.Point(395, 247);
+            this.TransactionReport.Name = "TransactionReport";
+            this.TransactionReport.Size = new System.Drawing.Size(174, 146);
+            this.TransactionReport.Style = MetroFramework.MetroColorStyle.Green;
+            this.TransactionReport.TabIndex = 15;
+            this.TransactionReport.Text = "Transaction Report";
+            this.TransactionReport.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.TransactionReport.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.TransactionReport.TileImage = ((System.Drawing.Image)(resources.GetObject("TransactionReport.TileImage")));
+            this.TransactionReport.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TransactionReport.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.TransactionReport.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.TransactionReport.UseCustomForeColor = true;
+            this.TransactionReport.UseSelectable = true;
+            this.TransactionReport.UseStyleColors = true;
+            this.TransactionReport.UseTileImage = true;
+            this.TransactionReport.Click += new System.EventHandler(this.TransactionReport_Click_1);
+            // 
+            // TransactionList
+            // 
+            this.TransactionList.ActiveControl = null;
+            this.TransactionList.AutoSize = true;
+            this.TransactionList.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.TransactionList.Location = new System.Drawing.Point(48, 247);
+            this.TransactionList.Name = "TransactionList";
+            this.TransactionList.Size = new System.Drawing.Size(168, 146);
+            this.TransactionList.Style = MetroFramework.MetroColorStyle.Green;
+            this.TransactionList.TabIndex = 14;
+            this.TransactionList.Text = "Transaction List";
+            this.TransactionList.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.TransactionList.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.TransactionList.TileImage = ((System.Drawing.Image)(resources.GetObject("TransactionList.TileImage")));
+            this.TransactionList.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TransactionList.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.TransactionList.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.TransactionList.UseCustomForeColor = true;
+            this.TransactionList.UseSelectable = true;
+            this.TransactionList.UseStyleColors = true;
+            this.TransactionList.UseTileImage = true;
+            this.TransactionList.Click += new System.EventHandler(this.TransactionList_Click);
+            // 
+            // ListItem
+            // 
+            this.ListItem.ActiveControl = null;
+            this.ListItem.AutoSize = true;
+            this.ListItem.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ListItem.Location = new System.Drawing.Point(224, 122);
+            this.ListItem.Name = "ListItem";
+            this.ListItem.Size = new System.Drawing.Size(165, 143);
+            this.ListItem.Style = MetroFramework.MetroColorStyle.Green;
+            this.ListItem.TabIndex = 13;
+            this.ListItem.Text = "List of items";
+            this.ListItem.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ListItem.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.ListItem.TileImage = ((System.Drawing.Image)(resources.GetObject("ListItem.TileImage")));
+            this.ListItem.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ListItem.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.ListItem.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.ListItem.UseCustomForeColor = true;
+            this.ListItem.UseSelectable = true;
+            this.ListItem.UseStyleColors = true;
+            this.ListItem.UseTileImage = true;
+            this.ListItem.Click += new System.EventHandler(this.ListItem_Click);
+            // 
+            // CustomerList
+            // 
+            this.CustomerList.ActiveControl = null;
+            this.CustomerList.AutoSize = true;
+            this.CustomerList.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CustomerList.Location = new System.Drawing.Point(48, 122);
+            this.CustomerList.Name = "CustomerList";
+            this.CustomerList.Size = new System.Drawing.Size(168, 119);
+            this.CustomerList.Style = MetroFramework.MetroColorStyle.Green;
+            this.CustomerList.TabIndex = 12;
+            this.CustomerList.Text = "Customer List";
+            this.CustomerList.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.CustomerList.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.CustomerList.TileImage = ((System.Drawing.Image)(resources.GetObject("CustomerList.TileImage")));
+            this.CustomerList.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.CustomerList.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.CustomerList.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.CustomerList.UseCustomForeColor = true;
+            this.CustomerList.UseSelectable = true;
+            this.CustomerList.UseStyleColors = true;
+            this.CustomerList.UseTileImage = true;
+            this.CustomerList.Click += new System.EventHandler(this.CustomerList_Click);
+            // 
+            // PaymentList
+            // 
+            this.PaymentList.ActiveControl = null;
+            this.PaymentList.AutoSize = true;
+            this.PaymentList.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PaymentList.Location = new System.Drawing.Point(222, 271);
+            this.PaymentList.Name = "PaymentList";
+            this.PaymentList.Size = new System.Drawing.Size(167, 122);
+            this.PaymentList.Style = MetroFramework.MetroColorStyle.Green;
+            this.PaymentList.TabIndex = 18;
+            this.PaymentList.Text = "Payment List";
+            this.PaymentList.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.PaymentList.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.PaymentList.TileImage = ((System.Drawing.Image)(resources.GetObject("PaymentList.TileImage")));
+            this.PaymentList.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.PaymentList.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.PaymentList.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.PaymentList.UseCustomForeColor = true;
+            this.PaymentList.UseSelectable = true;
+            this.PaymentList.UseStyleColors = true;
+            this.PaymentList.UseTileImage = true;
+            this.PaymentList.Click += new System.EventHandler(this.metroTile1_Click);
+            // 
+            // metroTile2
+            // 
+            this.metroTile2.ActiveControl = null;
+            this.metroTile2.AutoSize = true;
+            this.metroTile2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.metroTile2.Location = new System.Drawing.Point(395, 122);
+            this.metroTile2.Name = "metroTile2";
+            this.metroTile2.Size = new System.Drawing.Size(174, 119);
+            this.metroTile2.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroTile2.TabIndex = 19;
+            this.metroTile2.Text = "Report Customer";
+            this.metroTile2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.metroTile2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroTile2.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile2.TileImage")));
+            this.metroTile2.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.metroTile2.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.metroTile2.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.metroTile2.UseCustomForeColor = true;
+            this.metroTile2.UseSelectable = true;
+            this.metroTile2.UseStyleColors = true;
+            this.metroTile2.UseTileImage = true;
+            this.metroTile2.Click += new System.EventHandler(this.metroTile2_Click);
+            // 
+            // Home
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(815, 450);
+            this.Controls.Add(this.metroTile2);
+            this.Controls.Add(this.PaymentList);
+            this.Controls.Add(this.ItemReport);
+            this.Controls.Add(this.PaymentReport);
+            this.Controls.Add(this.TransactionReport);
+            this.Controls.Add(this.TransactionList);
+            this.Controls.Add(this.ListItem);
+            this.Controls.Add(this.CustomerList);
+            this.Controls.Add(this.metroPanel2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Home";
+            this.Style = MetroFramework.MetroColorStyle.Green;
+            this.Text = "Home";
+            this.Load += new System.EventHandler(this.Home_Load);
+            this.metroPanel2.ResumeLayout(false);
+            this.metroPanel2.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+        private MetroFramework.Controls.MetroPanel metroPanel2;
+        private MetroFramework.Controls.MetroLabel metroLabel1;
+        private MetroFramework.Controls.MetroPanel metroPanel3;
+        private MetroFramework.Controls.MetroTile ItemReport;
+        private MetroFramework.Controls.MetroTile PaymentReport;
+        private MetroFramework.Controls.MetroTile TransactionReport;
+        private MetroFramework.Controls.MetroTile TransactionList;
+        private MetroFramework.Controls.MetroTile ListItem;
+        private MetroFramework.Controls.MetroTile CustomerList;
+        private MetroFramework.Controls.MetroTile PaymentList;
+        private MetroFramework.Controls.MetroTile metroTile2;
+    }
+}
